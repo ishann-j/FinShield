@@ -1,0 +1,179 @@
+{
+  "categories": {
+    "ACCOUNT_SALE_RENT": {
+      "name": "Account Sale / Rent",
+      "description": "Savings/current/corporate accounts sold or rented with net banking, kit (passbook, cheque book, ATM card, SIM)",
+      "weight": 25,
+      "keywords": [
+        {"term": "account for sale", "weight": 25, "lang": "en"},
+        {"term": "bank account rent", "weight": 25, "lang": "en"},
+        {"term": "corporate account available", "weight": 25, "lang": "en"},
+        {"term": "current account rent", "weight": 25, "lang": "en"},
+        {"term": "savings account sale", "weight": 25, "lang": "en"},
+        {"term": "full kit account", "weight": 30, "lang": "en"},
+        {"term": "passbook cheque atm sim", "weight": 30, "lang": "en"},
+        {"term": "ready bank account", "weight": 20, "lang": "en"},
+        {"term": "mule account", "weight": 30, "lang": "en"},
+        {"term": "fresh account ready", "weight": 20, "lang": "en"},
+        {"term": "hdfc icici sbi account available", "weight": 25, "lang": "en"},
+        {"term": "khata bikau", "weight": 25, "lang": "hi_translit"},
+        {"term": "bank account kiraye par", "weight": 25, "lang": "hi_translit"},
+        {"term": "khata rent pe chahiye", "weight": 25, "lang": "hi_translit"},
+        {"term": "pura kit ke sath", "weight": 25, "lang": "hi_translit"},
+        {"term": "खाता बिकाऊ", "weight": 25, "lang": "hi"},
+        {"term": "बैंक खाता किराए पर", "weight": 25, "lang": "hi"},
+        {"term": "पूरा किट उपलब्ध", "weight": 25, "lang": "hi"},
+        {"term": "पासबुक चेक एटीएम", "weight": 25, "lang": "hi"}
+      ]
+    },
+    "ACCOUNT_RECRUITMENT": {
+      "name": "Mule Account Recruitment",
+      "description": "Account holders needed, daily/transaction commission, earn daily by providing bank account",
+      "weight": 20,
+      "keywords": [
+        {"term": "account holders needed", "weight": 25, "lang": "en"},
+        {"term": "daily commission account", "weight": 25, "lang": "en"},
+        {"term": "give your account earn daily", "weight": 30, "lang": "en"},
+        {"term": "provide bank account daily profit", "weight": 25, "lang": "en"},
+        {"term": "work from home bank account required", "weight": 20, "lang": "en"},
+        {"term": "earn 5000 to 15000 daily per account", "weight": 30, "lang": "en"},
+        {"term": "commission per transaction", "weight": 20, "lang": "en"},
+        {"term": "account holder urgent requirement", "weight": 20, "lang": "en"},
+        {"term": "apna khata do daily kamao", "weight": 25, "lang": "hi_translit"},
+        {"term": "khata chahiye daily commission milega", "weight": 25, "lang": "hi_translit"},
+        {"term": "rozana kamai bank account se", "weight": 25, "lang": "hi_translit"},
+        {"term": "खाता धारक चाहिए", "weight": 25, "lang": "hi"},
+        {"term": "रोजाना कमीशन बैंक खाता", "weight": 25, "lang": "hi"}
+      ]
+    },
+    "CARD_SALE": {
+      "name": "ATM / Card Sale",
+      "description": "ATM, debit or credit cards sold with PIN, pre-activated cards, ready to swipe cards",
+      "weight": 25,
+      "keywords": [
+        {"term": "atm card with pin", "weight": 30, "lang": "en"},
+        {"term": "debit card for sale", "weight": 25, "lang": "en"},
+        {"term": "pre-activated credit card", "weight": 25, "lang": "en"},
+        {"term": "ready to swipe card", "weight": 25, "lang": "en"},
+        {"term": "third-party atm card", "weight": 25, "lang": "en"},
+        {"term": "card with pin delivered", "weight": 30, "lang": "en"},
+        {"term": "atm card sale cod", "weight": 25, "lang": "en"},
+        {"term": "एटीएम कार्ड पिन के साथ", "weight": 30, "lang": "hi"},
+        {"term": "क्रेडिट कार्ड बिकाऊ", "weight": 25, "lang": "hi"}
+      ]
+    },
+    "STOLEN_CLONED_CARD": {
+      "name": "Stolen / Cloned Card (Carding)",
+      "description": "Card dumps, CVV/CVV2 sale, fullz, cloned/skimmed cards, BIN lists, live cc, checkers, cashout",
+      "weight": 30,
+      "keywords": [
+        {"term": "card dumps", "weight": 30, "lang": "en"},
+        {"term": "cvv cvv2 sale", "weight": 35, "lang": "en"},
+        {"term": "fullz fresh available", "weight": 35, "lang": "en"},
+        {"term": "cloned card ready cashout", "weight": 35, "lang": "en"},
+        {"term": "skimmed card track 1 2", "weight": 35, "lang": "en"},
+        {"term": "bin list live cc", "weight": 30, "lang": "en"},
+        {"term": "cc checker service", "weight": 30, "lang": "en"},
+        {"term": "live credit card details", "weight": 35, "lang": "en"},
+        {"term": "cashout service 50-50", "weight": 30, "lang": "en"},
+        {"term": "carding tutorial clone card", "weight": 35, "lang": "en"}
+      ]
+    },
+    "FAKE_KYC_SHELL_ACCOUNT": {
+      "name": "Fake KYC / Shell Firm Account",
+      "description": "Accounts opened using forged or rented KYC, dummy corporate accounts, GST/Udyam backed fake firm accounts",
+      "weight": 25,
+      "keywords": [
+        {"term": "fake kyc account", "weight": 30, "lang": "en"},
+        {"term": "rented kyc papers", "weight": 25, "lang": "en"},
+        {"term": "shell company current account", "weight": 30, "lang": "en"},
+        {"term": "gst firm current account", "weight": 25, "lang": "en"},
+        {"term": "udyam certificate account", "weight": 25, "lang": "en"},
+        {"term": "dummy firm account", "weight": 30, "lang": "en"},
+        {"term": "no kyc bank account", "weight": 30, "lang": "en"},
+        {"term": "forged documents account", "weight": 35, "lang": "en"},
+        {"term": "dastavej kyc bina", "weight": 25, "lang": "hi_translit"}
+      ]
+    },
+    "CREDENTIAL_ACCESS_SALE": {
+      "name": "Credential & Access Sale",
+      "description": "Net banking login, mobile banking access, OTP-forwarding SIMs, UPI handles, merchant QR sale or rent",
+      "weight": 25,
+      "keywords": [
+        {"term": "net banking credentials sale", "weight": 30, "lang": "en"},
+        {"term": "mobile banking login available", "weight": 30, "lang": "en"},
+        {"term": "otp forwarding sim", "weight": 35, "lang": "en"},
+        {"term": "merchant qr rent", "weight": 25, "lang": "en"},
+        {"term": "upi id for rent", "weight": 25, "lang": "en"},
+        {"term": "phonepe gpay merchant qr available", "weight": 25, "lang": "en"},
+        {"term": "sim bypass otp access", "weight": 30, "lang": "en"}
+      ]
+    },
+    "CRYPTO_LAUNDERING_LINKED": {
+      "name": "Crypto Laundering Linked",
+      "description": "P2P / USDT cash-out via accounts, cash to USDT, account channels for fund layering",
+      "weight": 25,
+      "keywords": [
+        {"term": "p2p usdt cashout account", "weight": 30, "lang": "en"},
+        {"term": "cash to usdt daily", "weight": 25, "lang": "en"},
+        {"term": "crypto mule account", "weight": 30, "lang": "en"},
+        {"term": "binance p2p account channel", "weight": 25, "lang": "en"},
+        {"term": "crypto fund layering channel", "weight": 30, "lang": "en"},
+        {"term": "usdt direct cash rate", "weight": 20, "lang": "en"},
+        {"term": "high volume crypto account", "weight": 25, "lang": "en"}
+      ]
+    },
+    "OTHER_FINANCIAL_FRAUD_ENABLER": {
+      "name": "Other Financial Fraud Enabler",
+      "description": "Loan-app or investment scam collection accounts, payment gateway or escrow account available, limit and turnover ads",
+      "weight": 20,
+      "keywords": [
+        {"term": "loan app payment collection account", "weight": 30, "lang": "en"},
+        {"term": "gaming fund receiver account", "weight": 25, "lang": "en"},
+        {"term": "payment gateway account available", "weight": 25, "lang": "en"},
+        {"term": "escrow account rent", "weight": 25, "lang": "en"},
+        {"term": "high turnover account 50 lakh limit", "weight": 25, "lang": "en"},
+        {"term": "heavy daily turnover channel", "weight": 25, "lang": "en"},
+        {"term": "investment fund collection account", "weight": 25, "lang": "en"}
+      ]
+    },
+    "BENIGN": {
+      "name": "Benign / Genuine",
+      "description": "Genuine bank ads, account-opening guidance, bank recruitment, awareness posts, police warnings, genuine card offers",
+      "weight": -20,
+      "keywords": [
+        {"term": "how to open a savings account", "weight": -25, "lang": "en"},
+        {"term": "official bank website", "weight": -30, "lang": "en"},
+        {"term": "cyber crime police advisory", "weight": -35, "lang": "en"},
+        {"term": "never share your otp or pin", "weight": -35, "lang": "en"},
+        {"term": "sbi official recruitment clerk po", "weight": -30, "lang": "en"},
+        {"term": "zero balance savings account apply online", "weight": -25, "lang": "en"},
+        {"term": "rbi awareness campaign", "weight": -35, "lang": "en"},
+        {"term": "lifetime free credit card apply official", "weight": -25, "lang": "en"},
+        {"term": "beware of mule account fraud", "weight": -35, "lang": "en"},
+        {"term": "selling my used bicycle iphone", "weight": -25, "lang": "en"}
+      ]
+    }
+  },
+  "ruleWeights": {
+    "SALE_RENT_INTENT": 25,
+    "BANK_ACCOUNT_TERM": 15,
+    "KIT_SIM_BUNDLE": 20,
+    "NO_KYC_LIMIT_TURNOVER": 15,
+    "CVV_DUMP_FULLZ": 30,
+    "RECRUITMENT_COMMISSION": 20,
+    "REPEATING_ENTITY_5_PLUS": 20,
+    "SHORTENED_LOOKALIKE_URL": 10,
+    "IMAGE_OCR_HIT": 15,
+    "CRYPTO_USDT_CHANNEL": 15,
+    "BOT_NEW_ACCOUNT": 10,
+    "OBFUSCATION_EVASION": 10,
+    "BENIGN_SIGNAL": -35
+  },
+  "riskThresholds": {
+    "low": {"min": 0, "max": 30, "label": "Low"},
+    "medium": {"min": 31, "max": 60, "label": "Medium"},
+    "high": {"min": 61, "max": 80, "label": "High"},
+    "critical": {"min": 81, "max": 100, "label": "Critical"}
+  }
+}

@@ -29,6 +29,7 @@ build/
 */.vite/
 .cache/
 .eslintcache
+*.traineddata
 *.log
 logs/
 *.pid

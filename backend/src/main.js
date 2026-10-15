@@ -80,6 +80,14 @@ app.use((err, req, res, next) => {
   });
 });
 
+process.on('uncaughtException', (err) => {
+  console.error('[Server UncaughtException]', err);
+});
+
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('[Server UnhandledRejection]', reason);
+});
+
 // Try to auto-load classifier model
 classifier.loadModel();
 

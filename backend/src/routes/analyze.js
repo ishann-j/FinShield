@@ -6,6 +6,7 @@ import express from 'express';
 import multer from 'multer';
 import path from 'path';
 import { CONFIG } from '../config.js';
+import { db } from '../database.js';
 import { authenticateToken } from './auth.js';
 import { preprocessText } from '../services/preprocess.js';
 import { extractAllClues, computeDHashFromBuffer } from '../services/extractors.js';
@@ -24,7 +25,8 @@ export const analyzeRouter = express.Router();
 
 // POST /api/analyze
 analyzeRouter.post('/', authenticateToken, upload.single('image'), async (req, res) => {
-  const { text = '', url = '', platform = 'Direct Submission', username = 'investigator_test' } = req.body;
+  try {
+    const { text = '', url = '', platform = 'Direct Submission', username = 'investigator_test' } = req.body;
 
   let combinedText = text;
   let ocrText = '';
@@ -114,10 +116,14 @@ analyzeRouter.post('/', authenticateToken, upload.single('image'), async (req, r
     details: `Evaluated custom post: Risk Score ${riskResult.risk_score} (${riskResult.risk_level})`
   });
 
-  res.json({
-    analysis: {
-      ...transientAd,
-      evidence
-    }
-  });
+    res.json({
+      analysis: {
+        ...transientAd,
+        evidence
+      }
+    });
+  } catch (err) {
+    console.error('[Analyze Error]', err);
+    res.status(500).json({ error: err.message || 'Analysis failed' });
+  }
 });
